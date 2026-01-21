@@ -15,3 +15,23 @@ This exercise asks you to create more than one function so the `module.exports` 
 - You can find the relevant formulae on [Wikipedia](https://en.wikipedia.org/wiki/Conversion_of_units_of_temperature).
 
 - Try to find by yourself on the Internet how to round a number to 1 decimal place in JavaScript. If you struggle, have a look [here](https://stackoverflow.com/q/7342957/5433628).
+
+-------------------------------
+
+# Exercício 11 - Conversão de temperatura
+
+Escreva duas funções que convertem temperaturas de Fahrenheit para Celsius e vice-versa:
+```
+convertToCelsius(32) // Fahrenheit para Celsius, deve retornar 0
+
+convertToFahrenheit(0) // Celsius para Fahrenheit, deve retornar 32
+```
+
+Como somos humanos, queremos que a temperatura resultante seja arredondada para uma casa decimal: ou seja, `convertToCelsius(100)` deve retornar `37.8` e não `37.77777777777778`.
+
+Este exercício pede que você crie mais de uma função, então a seção `module.exports` do arquivo JavaScript principal está um pouco diferente desta vez. Não se preocupe, estamos apenas agrupando as duas funções em um único objeto para ser exportado.
+
+## Dicas
+- Você pode encontrar as fórmulas relevantes na [Wikipedia](https://en.wikipedia.org/wiki/Conversion_of_units_of_temperature).
+
+- Tente encontrar na internet como arredondar um número para uma casa decimal em JavaScript. Se tiver dificuldades, consulte [aqui](https://stackoverflow.com/q/7342957/5433628).

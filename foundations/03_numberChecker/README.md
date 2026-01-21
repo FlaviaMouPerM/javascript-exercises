@@ -18,3 +18,25 @@ Tests:       3 skipped, 1 passed, 4 total
 - You only need to edit line 2.
 
 - Look at the docs for comparison operators in JavaScript for a quick reference.
+
+-----------------------------
+
+# Exercício 03 - Verificador de Números
+
+Modifique o código para que retorne `true` quando o número for maior ou igual a 10 e `false` se for menor que 10.
+
+Atualmente, o código retorna `true` se o número for `6`, caso contrário, retorna `false`.
+
+Você também pode notar que, neste exercício, existem vários testes (no arquivo `numberChecker.spec.js`). Apenas o primeiro teste está habilitado. Portanto, depois de garantir que o primeiro teste seja aprovado, habilite o próximo removendo a parte `.skip` da função `test.skip()`. Geralmente é mais fácil habilitar apenas um teste por vez e, em seguida, editar o código para que ele seja aprovado. Você pode continuar habilitando apenas um por vez até que, aos poucos, todos sejam aprovados!
+
+- Se executar `npm test numberChecker.spec.js` retornar resultados semelhantes aos mostrados abaixo, certifique-se de ter habilitado os demais testes, conforme descrito nas instruções acima.
+
+``` Testes: 1 aprovado, 1 total
+Testes: 3 ignorados, 1 aprovado, 4 total
+```
+
+## Dicas
+
+- Você só precisa editar a linha 2.
+
+- Consulte a documentação sobre operadores de comparação em JavaScript para uma referência rápida.

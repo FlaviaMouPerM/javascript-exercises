@@ -1,4 +1,4 @@
-# Exercise 05 - joinStrings
+54# Exercise 05 - joinStrings
 
 ## Step 1: Learn
 First, look at the example code in `joinStrings-example.js`. Try and predict what the `console.log` output will be. When you're ready, run the test:
@@ -40,3 +40,47 @@ npm test joinStrings.spec.js
 - Look at the docs for JavaScript variables for a quick reference.
 
 - Refer back to the [Variables and Operators lesson](https://www.theodinproject.com/lessons/foundations-variables-and-operators) if you are still stuck.
+
+-------------------------------
+
+# Exercício 05 - joinStrings
+
+## Passo 1: Aprenda
+Primeiro, observe o código de exemplo em `joinStrings-example.js`. Tente prever qual será a saída de `console.log`. Quando estiver pronto, execute o teste:
+```bash
+npm test joinStrings-example.spec.js
+```
+Se você observar algo inesperado, sinta-se à vontade para revisar o código novamente.
+
+## Passo 2: Faça
+Após entender o código de exemplo, você recriará o trecho por conta própria seguindo as instruções abaixo (em `joinStrings.js`):
+
+1. Crie 4 variáveis: `firstName`, `lastName`, `thisYear` e `birthYear`
+
+2. Crie uma 5ª variável, `greeting`, que seja construída a partir das 4 variáveis ​​anteriores.
+- Ela deve conter uma saudação que inclua o nome completo e a idade da pessoa.
+
+Observação: Para que os testes sejam aprovados, você precisará usar os valores e a redação exatos (como descrito em `joinStrings.js`). Se os testes falharem, verifique o feedback no seu terminal e, em seguida, verifique o espaçamento, as maiúsculas e a pontuação.
+
+## Etapa 3: Otimizar
+Você editará seu código para torná-lo mais fácil de ler, seguindo estas instruções:
+
+1. Crie 2 novas variáveis: `fullName` e `age`
+- NÃO digite simplesmente o nome completo e a idade nas novas variáveis
+- Em vez disso, use as variáveis ​​preexistentes, com os cálculos que estão atualmente dentro de `greeting`
+
+2. Edite a string `greeting` para usar `fullName` e `age` em vez das outras 4 variáveis
+- `greeting` deve ficar assim:
+```js
+"Olá! Meu nome é " + fullName
+```
+
+Execute todos os testes mais uma vez para garantir que a saída permaneça inalterada:
+```bash
+"npm test joinStrings.spec.js"
+```
+## Dicas
+
+- Consulte a documentação sobre variáveis ​​em JavaScript para uma referência rápida.
+
+- Se ainda tiver dúvidas, volte à lição [Variáveis ​​e Operadores](https://www.theodinproject.com/lessons/foundations-variables-and-operators).

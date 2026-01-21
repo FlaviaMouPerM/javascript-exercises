@@ -17,3 +17,25 @@ Use loops to implement `repeatString` rather than using the builtin `String.prot
 - What inputs does the function need to achieve its goal?
 
 - How can you iteratively build up the final string, using one of the inputs to control the repetition?
+
+-------------------------------
+
+# Exercício 06 - repeatString
+
+Escreva uma função que simplesmente repita a string um determinado número de vezes:
+
+```javascript
+repeatString('hey', 3) // retorna 'heyheyhey'
+```
+
+Esta função receberá dois argumentos, `string` e `num`. Se `num` for um número negativo, retorne a string `'ERROR'` em vez disso.
+
+Use loops para implementar `repeatString` em vez de usar a função nativa `String.prototype.repeat`, que tem o mesmo comportamento.
+
+*Observação:* Os exercícios seguintes a este não terão argumentos fornecidos como este - você precisará fornecê-los a partir de agora. Portanto, leia atentamente o arquivo README de cada exercício para ver que tipos de argumentos serão esperados.
+
+## Dicas
+
+- Quais entradas a função precisa para atingir seu objetivo?
+
+- Como você pode construir iterativamente a string final, usando uma das entradas para controlar a repetição?
